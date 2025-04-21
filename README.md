@@ -2,7 +2,6 @@
 This is an API built with Laravel for an Event Ticketing Platform. The API allows user registration, login, event, venue and ticket management, and booking tickets for events.
 
 ## Project setup steps:
---------------------
  1. composer install
  2. Copy/Paste .env.example file and rename it to .env
  3. php artisan migrate:fresh --seed
@@ -11,7 +10,6 @@ This is an API built with Laravel for an Event Ticketing Platform. The API allow
  6. php artisan serve 
 
 ## Testing with Postman
---------------------
 You can use Postman to test the following API endpoints:
 POST /api/register: Register a new user (send 'name', 'email', and 'password').
 POST /api/login: Login with credentials (send 'email' and 'password').
