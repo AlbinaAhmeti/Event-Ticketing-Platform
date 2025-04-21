@@ -7,7 +7,10 @@ This is an API built with Laravel for an Event Ticketing Platform. The API allow
  3. php artisan migrate:fresh --seed
  4. php artisan key:generate
  5. php artisan storage:link
- 6. php artisan serve 
+ 6. composer require laravel/sanctum
+ 7. php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider" --tag="config"
+ 8. php artisan migrate
+ 9. php artisan serve 
 
 ## Testing with Postman
 You can use Postman to test the following API endpoints:
